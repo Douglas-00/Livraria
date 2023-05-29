@@ -2,9 +2,9 @@
 Sistema -> Gerenciamento de uma livraria
 # Guia para executar na máquina Local.
 1- Clone o repositório para a máquina de destino usando o comando git clone <URL do repositório>.<br>
-2- Navegue até a pasta raiz do projeto Laravel e execute o comando composer install para instalar as dependências do projeto.
-3- Configure o arquivo .env para configurações do banco local com os dados  nome do banco, nome de usuário e senha.
-4- Gere a chave com o comando php artisan key:generate Isso irá gerar uma nova chave de aplicativo no arquivo .env, que é usada para criptografar cookies e outros dados sensíveis
+2- Navegue até a pasta raiz do projeto Laravel e execute o comando composer install para instalar as dependências do projeto.<br>
+3- Configure o arquivo .env para configurações do banco local com os dados  nome do banco, nome de usuário e senha.<br>
+4- Gere a chave com o comando php artisan key:generate Isso irá gerar uma nova chave de aplicativo no arquivo .env, que é usada para criptografar cookies e outros dados sensíveis<br>
 
 #5 - Após configurar o banco de dados, execute o comando php artisan migrate.
 
