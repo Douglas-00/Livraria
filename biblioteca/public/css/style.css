@@ -1,0 +1,151 @@
+/*General*/
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height:100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+header{
+    background-color: aliceblue;
+    border-bottom: 1px solid #ccc;
+}
+/* .msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 50%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+} */
+.row{
+    margin:0;
+}
+.container-fluid{
+    padding: 0;
+}
+/*Navbar*/
+#navbar{
+    justify-content: space-between;
+    padding: 5px 0;
+}
+#navbar a{
+    font-size: 25px;
+    color:rgb(60, 57, 57);
+}
+#navbar a:hover{
+    font-size: 25px;
+    color:rgb(250, 158, 83);
+}
+#navbar img{
+    width: 80px;
+}
+/*Search*/
+#search-container{
+    /*background-image: url("../img/banner.jpg");*/
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+#search-container h1{
+    color:#262525;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#search-container form{
+    width: 50%;
+    margin:0 auto;
+
+}
+/*Lista de Livros*/
+#books-container{
+    padding: 50px;
+}
+#books-container h2{
+    margin-bottom: 10px;
+}
+#cards-container{
+    display:flex;
+}
+#books-container .card{
+    flex:1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin:5px;
+}
+#books-container img{
+    max-height: 150px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card .card-title{
+    margin: 5px;
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card .card-date{
+    margin: 5px;
+    color: #838282;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/*Book create page*/
+#book-create-container{
+    padding: 30px;
+}
+#book-create-container label{
+    font-weight: bold;
+}
+#book-create-container input,
+#book-create-container select {
+    font-size: 15px;
+}
+/*Book Show*/
+#image-container,
+#info-container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.show-container .form-control{
+    margin-left: 200px;
+    text-align: center;
+    width: 50%;
+}
+.show-container{
+    width: 800px;
+    text-align: center;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+/*Footer*/
+footer{
+    text-align: center;
+    background-color:#353E48;
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: #fffdfd;
+    margin-top: 15px;
+    width: 100%;
+}
